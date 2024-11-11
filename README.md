@@ -37,41 +37,45 @@ MyApp is an Angular application that demonstrates the use of various Angular fea
 - **Pipes**: Transform data in templates.
 - **Server-Side Rendering**: Render Angular applications on the server using Express.
 
-## Project Structure
-.editorconfig
-.gitignore
-.vscode/
-  ├── extensions.json
-  ├── launch.json
-  └── tasks.json
-angular.json
-package.json
-README.md
-server.ts
-src/
-  ├── app/
-  │   ├── app.component.css
-  │   ├── app.component.html
-  │   ├── app.component.spec.ts
-  │   ├── app.component.ts
-  │   ├── app.config.server.ts
-  │   ├── app.config.ts
-  │   ├── app.routes.ts
-  │   ├── hero.ts
-  │   ├── heroes/
-  │   ├── input-format.directive.spec.ts
-  │   ├── input-format.directive.ts
-  │   └── mock-heroes.ts
-  ├── assets/
-  │   └── .gitkeep
-  ├── index.html
-  ├── main.server.ts
-  ├── main.ts
-  └── styles.css
-tsconfig.app.json
-tsconfig.json
-tsconfig.spec.json
+# Project Structure
 
+- **.vscode/**
+  - `extensions.json`
+  - `launch.json`
+  - `tasks.json`
+- `.editorconfig`
+- `.gitignore`
+- `angular.json`
+- `package.json`
+- `README.md`
+- `server.ts`
+- **src/**
+  - **app/**
+    - `app.component.css`
+    - `app.component.html`
+    - `app.component.spec.ts`
+    - `app.component.ts`
+    - `app.config.server.ts`
+    - `app.config.ts`
+    - `app.routes.ts`
+    - `hero.ts`
+    - **heroes/**
+      - `heroes.component.css`
+      - `heroes.component.html`
+      - `heroes.component.spec.ts`
+      - `heroes.component.ts`
+    - `input-format.directive.spec.ts`
+    - `input-format.directive.ts`
+    - `mock-heroes.ts`
+  - **assets/**
+    - `.gitkeep`
+  - `index.html`
+  - `main.server.ts`
+  - `main.ts`
+  - `styles.css`
+- `tsconfig.app.json`
+- `tsconfig.json`
+- `tsconfig.spec.json`
 
 ## Development Server
 
